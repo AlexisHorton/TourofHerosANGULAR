@@ -13,3 +13,11 @@ button{
     border-radius: 4px;
     font-size: 1rem;
 }
+button:hover {
+    background-color: #cfd8dc;
+}
+button:disabled{
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
